@@ -1,0 +1,33 @@
+# trawa (Future Energy Services GmbH)
+
+> trawa is a Berlin-based energy management company for mid-sized businesses. It combines AI-optimized green-electricity procurement on the wholesale market with cloud energy-management software that gives customers real-time visibility into consumption, costs, and CO2 emissions, plus battery storage and smart control of energy-consuming assets. Founded in 2022; backed by Balderton Capital and Speedinvest. trawa exposes a customer web portal and a trust center but publishes no public developer API at this time.
+
+## Company
+
+- [trawa homepage](https://www.trawa.de/): Company website (German).
+- [trawa (English)](https://www.trawa.de/en/): English company website.
+- [About / Über uns](https://www.trawa.de/ueber-uns): Company background and team.
+- [Careers / Karriere](https://www.trawa.de/karriere): Open roles.
+
+## Products
+
+- [Optimized power supply](https://www.trawa.de/produkte/optimierte-stromversorgung): AI-optimized green-electricity procurement.
+- Energy management software: real-time consumption, cost, and CO2 analytics.
+- Battery storage and smart control of energy-consuming assets (CHP plants, charging stations).
+
+## Docs & Support
+
+- [Blog](https://www.trawa.de/blog): Company blog.
+- [Knowledge / Insights](https://www.trawa.de/wissen-insights): Educational content on energy markets.
+- [Contact / Kontakt](https://www.trawa.de/kontakt): Support and sales contact.
+- [Customer portal](https://portal.trawa.de): Customer login for the energy-management platform.
+
+## Trust & Legal
+
+- [Trust Center](https://trustcenter.trawa.de/): Security and compliance information.
+- [Privacy / Datenschutz](https://www.trawa.de/datenschutz): Privacy policy.
+- [Imprint / Impressum](https://www.trawa.de/impressum): Legal entity (Future Energy Services GmbH, Berlin).
+
+## API
+
+- No public developer API, OpenAPI specification, SDK, or MCP server was found as of 2026-07-21. trawa's platform is delivered as a customer web portal.

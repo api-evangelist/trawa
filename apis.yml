@@ -1,8 +1,26 @@
 aid: trawa
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trawa.png
 name: trawa
-description: trawa is a company surfaced as a portfolio company of balderton-capital, speedinvest and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: trawa (operated by Future Energy Services GmbH) is a Berlin-based energy
+  management company that helps mid-sized businesses procure and manage electricity.
+  It pairs AI-optimized green-electricity sourcing on the wholesale market with cloud
+  energy-management software that gives customers real-time visibility into consumption,
+  costs, and CO2 emissions, alongside battery storage and smart control of energy-consuming
+  assets such as CHP plants and charging stations. Founded in 2022, trawa is backed
+  by Balderton Capital and Speedinvest. The platform is delivered through a customer
+  web portal and a trust center; no public developer API was found as of this enrichment
+  pass.
 url: https://raw.githubusercontent.com/api-evangelist/trawa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Energy
+- Energy Management
+- Electricity
+- Renewable Energy
+- Sustainability
+- Green Energy
+- Procurement
+- SaaS
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/trawa-domain-security.yml
 - type: Website
   url: https://www.trawa.de/
+- type: Login
+  url: https://portal.trawa.de
+- type: TrustCenter
+  url: https://trustcenter.trawa.de/
+- type: Blog
+  url: https://www.trawa.de/blog
+- type: Support
+  url: https://www.trawa.de/kontakt
+- type: PrivacyPolicy
+  url: https://www.trawa.de/datenschutz
+- type: LLMsTxt
+  url: llms/trawa-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
